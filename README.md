@@ -1,4 +1,4 @@
-10G_EthernetMAC_SystemVerilog_OOP
+# 10G_EthernetMAC_SystemVerilog_OOP
 Final Project for my course in Advanced Verification with SystemVerilog OOP
 
 
@@ -38,3 +38,4 @@ Final Project for my course in Advanced Verification with SystemVerilog OOP
 
 
 
+# In the Testbench/verilog directory you will find the rudimentary testbench that came with the design as a reference to building the OOP testbench environment. The OOP_Testbench directory holds the components of my OOP testbench. In the verilog directory you will find the verilog files of the 10GE MAC Core. Lastly in the testcases directory are my testcases described in my report in the doc directory.
