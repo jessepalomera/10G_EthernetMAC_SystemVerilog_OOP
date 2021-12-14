@@ -1,0 +1,10 @@
+vcs -full64 +vcs+lic+wait +vcs+dumpvars+wave.vpd  -sverilog -R -l vcs.log \
+-override_timescale=1ps/1ps \
++ntb_random_seed_automatic  \
+../../rtl/verilog/*.v \
++incdir+../../rtl/include \
+testbench.sv               \
+testcase.sv		   \
+mac_if.sv
+ 
+

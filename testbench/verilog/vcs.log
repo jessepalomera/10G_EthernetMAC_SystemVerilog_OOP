@@ -1,0 +1,97 @@
+Command: vcs -full64 +vcs+lic+wait -sverilog -R -l vcs.log -override_timescale=1ps/1ps \
++ntb_random_seed_automatic ../../rtl/verilog/fault_sm.v ../../rtl/verilog/generic_fifo_ctrl.v \
+../../rtl/verilog/generic_fifo.v ../../rtl/verilog/generic_mem_medium.v ../../rtl/verilog/generic_mem_small.v \
+../../rtl/verilog/meta_sync_single.v ../../rtl/verilog/meta_sync.v ../../rtl/verilog/rx_data_fifo.v \
+../../rtl/verilog/rx_dequeue.v ../../rtl/verilog/rx_enqueue.v ../../rtl/verilog/rx_hold_fifo.v \
+../../rtl/verilog/sync_clk_core.v ../../rtl/verilog/sync_clk_wb.v ../../rtl/verilog/sync_clk_xgmii_tx.v \
+../../rtl/verilog/tx_data_fifo.v ../../rtl/verilog/tx_dequeue.v ../../rtl/verilog/tx_enqueue.v \
+../../rtl/verilog/tx_hold_fifo.v ../../rtl/verilog/wishbone_if.v ../../rtl/verilog/xge_mac.v \
++incdir+../../rtl/include testbench.sv ../../testcases/original_testcase/testcase.sv \
+mac_if.sv
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Thu Dec  2 14:04:21 2021
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../../rtl/verilog/fault_sm.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/fault_sm.v'.
+Parsing design file '../../rtl/verilog/generic_fifo_ctrl.v'
+Parsing design file '../../rtl/verilog/generic_fifo.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/generic_fifo.v'.
+Parsing design file '../../rtl/verilog/generic_mem_medium.v'
+Parsing design file '../../rtl/verilog/generic_mem_small.v'
+Parsing design file '../../rtl/verilog/meta_sync_single.v'
+Parsing design file '../../rtl/verilog/meta_sync.v'
+Parsing design file '../../rtl/verilog/rx_data_fifo.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/rx_data_fifo.v'.
+Parsing design file '../../rtl/verilog/rx_dequeue.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/rx_dequeue.v'.
+Parsing design file '../../rtl/verilog/rx_enqueue.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/rx_enqueue.v'.
+Parsing included file '../../rtl/include/CRC32_D64.v'.
+Back to file '../../rtl/verilog/rx_enqueue.v'.
+Parsing included file '../../rtl/include/CRC32_D8.v'.
+Back to file '../../rtl/verilog/rx_enqueue.v'.
+Parsing included file '../../rtl/include/utils.v'.
+Back to file '../../rtl/verilog/rx_enqueue.v'.
+Parsing design file '../../rtl/verilog/rx_hold_fifo.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/rx_hold_fifo.v'.
+Parsing design file '../../rtl/verilog/sync_clk_core.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/sync_clk_core.v'.
+Parsing design file '../../rtl/verilog/sync_clk_wb.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/sync_clk_wb.v'.
+Parsing design file '../../rtl/verilog/sync_clk_xgmii_tx.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/sync_clk_xgmii_tx.v'.
+Parsing design file '../../rtl/verilog/tx_data_fifo.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/tx_data_fifo.v'.
+Parsing design file '../../rtl/verilog/tx_dequeue.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/tx_dequeue.v'.
+Parsing included file '../../rtl/include/CRC32_D64.v'.
+Back to file '../../rtl/verilog/tx_dequeue.v'.
+Parsing included file '../../rtl/include/CRC32_D8.v'.
+Back to file '../../rtl/verilog/tx_dequeue.v'.
+Parsing included file '../../rtl/include/utils.v'.
+Back to file '../../rtl/verilog/tx_dequeue.v'.
+Parsing design file '../../rtl/verilog/tx_enqueue.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/tx_enqueue.v'.
+Parsing included file '../../rtl/include/CRC32_D64.v'.
+Back to file '../../rtl/verilog/tx_enqueue.v'.
+Parsing included file '../../rtl/include/CRC32_D8.v'.
+Back to file '../../rtl/verilog/tx_enqueue.v'.
+Parsing included file '../../rtl/include/utils.v'.
+Back to file '../../rtl/verilog/tx_enqueue.v'.
+Parsing design file '../../rtl/verilog/tx_hold_fifo.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/tx_hold_fifo.v'.
+Parsing design file '../../rtl/verilog/wishbone_if.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/wishbone_if.v'.
+Parsing design file '../../rtl/verilog/xge_mac.v'
+Parsing included file '../../rtl/include/defines.v'.
+Back to file '../../rtl/verilog/xge_mac.v'.
+
+Error-[SFCOR] Source file cannot be opened
+  Source file "testbench.sv" cannot be opened for reading due to 'No such file
+  or directory'.
+  Please fix above issue and compile again.
+  
+  
+
+1 error
+CPU time: .154 seconds to compile
