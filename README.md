@@ -2,7 +2,7 @@
 Final Project for my course in Advanced Verification with SystemVerilog OOP
 
 In the Testbench/verilog directory you will find the rudimentary testbench that came with the design as a reference to building the OOP testbench environment. The OOP_Testbench directory holds the components of my OOP testbench. In the RTL directory you will find the verilog files of the 10GE MAC Core. Lastly in the testcases directory are my testcases described in my report in the DOC directory.
-/////////////////////////////////////////////////////////////////////
+
 
   This file is part of the "10GE MAC" project                 
   http://www.opencores.org/cores/xge_mac/                     
